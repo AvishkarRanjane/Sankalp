@@ -1,28 +1,18 @@
 # Sankalp (संकल्प) — Decentralized Milestone-Based Crowdfunding Platform
 
-<p align="center">
-  <img src="sankalp-web/public/images/logo/logo.png" alt="Sankalp Logo" width="96" height="96" />
-</p>
+![Sankalp Logo](sankalp-web/public/images/logo/logo.png)
 
-<p align="center">
-  <strong>Fund ideas that keep their promises.</strong><br />
-  A next-generation crowdfunding platform built from scratch on the high-throughput <strong>Monad EVM</strong> blockchain.<br />
-  Empowering grassroots student innovators, social enterprises, and community builders with 100% smart-contract escrow protection and milestone-verified releases.
-</p>
+> **Fund ideas that keep their promises.**  
+> A next-generation crowdfunding platform built from scratch on the high-throughput **Monad EVM** blockchain.  
+> Empowering grassroots student innovators, social enterprises, and community builders with 100% smart-contract escrow protection and milestone-verified releases.
 
-<p align="center">
-  <a href="#-deploy-to-vercel"><img src="https://img.shields.io/badge/Demo-Deploy%20on%20Vercel-black?style=for-the-badge&logo=vercel" alt="Deploy on Vercel" /></a>
-  <a href="#-monad-testnet-deployment-parameters"><img src="https://img.shields.io/badge/Network-Monad%20Testnet%20(10143)-8338EC?style=for-the-badge&logo=ethereum" alt="Monad Network" /></a>
-  <a href="#-tech-stack"><img src="https://img.shields.io/badge/Next.js-16%20(Turbopack)-000000?style=for-the-badge&logo=next.js" alt="Next.js 16" /></a>
-  <a href="#-tech-stack"><img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" /></a>
-  <a href="#-license"><img src="https://img.shields.io/badge/License-MIT-amber?style=for-the-badge" alt="MIT License" /></a>
-</p>
+[![Demo Deploy on Vercel](https://img.shields.io/badge/Demo-Deploy%20on%20Vercel-black?style=for-the-badge&logo=vercel)](#-deploy-to-vercel)
+[![Network Monad Testnet](https://img.shields.io/badge/Network-Monad%20Testnet%20(10143)-8338EC?style=for-the-badge&logo=ethereum)](#-monad-testnet-deployment-parameters)
+[![Next.js 16](https://img.shields.io/badge/Next.js-16%20(Turbopack)-000000?style=for-the-badge&logo=next.js)](#-tech-stack)
+[![TypeScript 5.x](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript)](#-tech-stack)
+[![MIT License](https://img.shields.io/badge/License-MIT-amber?style=for-the-badge)](#-license)
 
-<p align="center">
-  <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAvishkarRanjane%2FSankalp&root-directory=sankalp-web">
-    <img src="https://vercel.com/button" alt="Deploy with Vercel" />
-  </a>
-</p>
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAvishkarRanjane%2FSankalp&root-directory=sankalp-web)
 
 ---
 
@@ -43,7 +33,7 @@ Traditional crowdfunding platforms (Kickstarter, GoFundMe, Ketto) suffer from a 
 
 ## 🏛️ Architecture Overview
 
-```
+```text
                                 +---------------------------------------+
                                 |           Monad Blockchain            |
                                 |       (Chain ID: 10143 / MON)         |
@@ -98,7 +88,7 @@ $$\text{Contract Balance} = \text{Total Raised} - \text{Total Released} - \text{
 
 ## 📁 Repository Structure
 
-```
+```text
 Monad Blitz hackathon/
 ├── packages/
 │   ├── contracts/               # Foundry Smart Contracts
@@ -175,7 +165,7 @@ npm run start
 
 ---
 
-## ☁️ Deploy to Vercel (Live in 60 Seconds)
+## ☁️ Deploy to Vercel
 
 ### Option A: 1-Click Import (Recommended)
 
@@ -197,7 +187,7 @@ npx vercel --prod
 ## 🌐 Monad Testnet Deployment Parameters
 
 | Resource | Value |
-|---|---|
+| :--- | :--- |
 | **Network** | Monad Testnet |
 | **Chain ID** | `10143` (`0x279f`) |
 | **Native Token** | `MON` |
