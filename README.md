@@ -11,11 +11,17 @@
 </p>
 
 <p align="center">
-  <a href="#-live-demo"><img src="https://img.shields.io/badge/Demo-Live%20on%20Vercel-black?style=for-the-badge&logo=vercel" alt="Live Demo" /></a>
-  <a href="#-monad-testnet-architecture"><img src="https://img.shields.io/badge/Network-Monad%20Testnet%20(10143)-8338EC?style=for-the-badge&logo=ethereum" alt="Monad Network" /></a>
+  <a href="#-deploy-to-vercel"><img src="https://img.shields.io/badge/Demo-Deploy%20on%20Vercel-black?style=for-the-badge&logo=vercel" alt="Deploy on Vercel" /></a>
+  <a href="#-monad-testnet-deployment-parameters"><img src="https://img.shields.io/badge/Network-Monad%20Testnet%20(10143)-8338EC?style=for-the-badge&logo=ethereum" alt="Monad Network" /></a>
   <a href="#-tech-stack"><img src="https://img.shields.io/badge/Next.js-16%20(Turbopack)-000000?style=for-the-badge&logo=next.js" alt="Next.js 16" /></a>
   <a href="#-tech-stack"><img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" /></a>
   <a href="#-license"><img src="https://img.shields.io/badge/License-MIT-amber?style=for-the-badge" alt="MIT License" /></a>
+</p>
+
+<p align="center">
+  <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAvishkarRanjane%2FSankalp&root-directory=sankalp-web">
+    <img src="https://vercel.com/button" alt="Deploy with Vercel" />
+  </a>
 </p>
 
 ---
@@ -165,6 +171,25 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 ```bash
 npm run build
 npm run start
+```
+
+---
+
+## ☁️ Deploy to Vercel (Live in 60 Seconds)
+
+### Option A: 1-Click Import (Recommended)
+
+1. Click the **[Deploy with Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAvishkarRanjane%2FSankalp&root-directory=sankalp-web)** button above.
+2. Sign in with your GitHub account.
+3. Vercel automatically detects Next.js 16 and sets the Root Directory to `sankalp-web`.
+4. Click **Deploy**. Your live production instance will be available at `https://sankalp-[your-username].vercel.app` with instant global CDN caching and automatic deployments on every Git push.
+
+### Option B: Deploy via Vercel CLI
+
+```bash
+cd sankalp-web
+npx vercel login
+npx vercel --prod
 ```
 
 ---
