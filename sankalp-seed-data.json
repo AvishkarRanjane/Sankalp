@@ -1,0 +1,1474 @@
+{
+  "_readme": "Fictional demo data. Addresses are placeholders (zero-padded counters), not real wallets. Remove or label before public launch. Dates are relative to 2026-10-18.",
+  "stats": {
+    "projectsFunded": 128,
+    "totalRaisedUSDC": 412600,
+    "backers": 9340,
+    "milestonesOnTimePercent": 94,
+    "isDemo": true
+  },
+  "categories": [
+    {
+      "slug": "education-students",
+      "name": "Education & Students",
+      "description": "Student research, school labs and learning tools.",
+      "sortOrder": 1
+    },
+    {
+      "slug": "technology-hardware",
+      "name": "Technology & Hardware",
+      "description": "Open-source tools, IoT and maker hardware.",
+      "sortOrder": 2
+    },
+    {
+      "slug": "community-social",
+      "name": "Community & Social Causes",
+      "description": "Neighbourhood libraries, clean-ups and local initiatives.",
+      "sortOrder": 3
+    },
+    {
+      "slug": "arts-culture",
+      "name": "Arts & Culture",
+      "description": "Music, film, writing and independent art.",
+      "sortOrder": 4
+    },
+    {
+      "slug": "environment-sustainability",
+      "name": "Environment & Sustainability",
+      "description": "Tree planting, solar, waste reduction.",
+      "sortOrder": 5
+    },
+    {
+      "slug": "small-business-startups",
+      "name": "Small Business & Startups",
+      "description": "Local businesses and early startups.",
+      "sortOrder": 6
+    },
+    {
+      "slug": "science-research",
+      "name": "Science & Research",
+      "description": "Open science, citizen research and field studies.",
+      "sortOrder": 7
+    },
+    {
+      "slug": "health-wellbeing",
+      "name": "Health & Wellbeing",
+      "description": "Community wellness programmes (not individual medical treatment).",
+      "sortOrder": 8
+    }
+  ],
+  "creators": [
+    {
+      "id": "cr_01",
+      "handle": "aarav-kulkarni",
+      "displayName": "Aarav Kulkarni",
+      "city": "Nashik",
+      "bio": "Final-year electronics student and open-hardware maker.",
+      "walletAddress": "0x00000000000000000000000000000000000003e8",
+      "verified": true,
+      "joined": "2026-04-01",
+      "isDemo": true
+    },
+    {
+      "id": "cr_02",
+      "handle": "meera-iyer",
+      "displayName": "Meera Iyer",
+      "city": "Mumbai",
+      "bio": "Librarian and community organiser in Colaba.",
+      "walletAddress": "0x00000000000000000000000000000000000003e9",
+      "verified": true,
+      "joined": "2026-04-16",
+      "isDemo": true
+    },
+    {
+      "id": "cr_03",
+      "handle": "kabir-shaikh",
+      "displayName": "Kabir Shaikh",
+      "city": "Pune",
+      "bio": "Embedded-systems engineer building affordable solar kits.",
+      "walletAddress": "0x00000000000000000000000000000000000003ea",
+      "verified": true,
+      "joined": "2026-05-01",
+      "isDemo": true
+    },
+    {
+      "id": "cr_04",
+      "handle": "tanvi-joshi",
+      "displayName": "Tanvi Joshi",
+      "city": "Thane",
+      "bio": "Singer-songwriter and music teacher.",
+      "walletAddress": "0x00000000000000000000000000000000000003eb",
+      "verified": true,
+      "joined": "2026-05-16",
+      "isDemo": true
+    },
+    {
+      "id": "cr_05",
+      "handle": "nisha-patil",
+      "displayName": "Nisha Patil",
+      "city": "Uran",
+      "bio": "Marine-biology graduate working on mangrove restoration.",
+      "walletAddress": "0x00000000000000000000000000000000000003ec",
+      "verified": true,
+      "joined": "2026-05-31",
+      "isDemo": true
+    },
+    {
+      "id": "cr_06",
+      "handle": "farhan-ansari",
+      "displayName": "Farhan Ansari",
+      "city": "Mumbai",
+      "bio": "Documentary filmmaker covering river communities.",
+      "walletAddress": "0x00000000000000000000000000000000000003ed",
+      "verified": true,
+      "joined": "2026-06-15",
+      "isDemo": true
+    },
+    {
+      "id": "cr_07",
+      "handle": "sunita-naik",
+      "displayName": "Sunita Naik",
+      "city": "Navi Mumbai",
+      "bio": "Home baker turning a kitchen into a neighbourhood bakery.",
+      "walletAddress": "0x00000000000000000000000000000000000003ee",
+      "verified": true,
+      "joined": "2026-06-30",
+      "isDemo": true
+    },
+    {
+      "id": "cr_08",
+      "handle": "dr-rahul-deshmukh",
+      "displayName": "Dr. Rahul Deshmukh",
+      "city": "Kolhapur",
+      "bio": "Ornithologist mapping bird calls across the Western Ghats.",
+      "walletAddress": "0x00000000000000000000000000000000000003ef",
+      "verified": true,
+      "joined": "2026-07-15",
+      "isDemo": true
+    }
+  ],
+  "projects": [
+    {
+      "id": "pr_01",
+      "slug": "pocket-lab-science-kits-village-schools",
+      "title": "Pocket Lab: Low-Cost Science Kits for 40 Village Schools",
+      "summary": "Hands-on physics and chemistry kits for classes 6 to 8, built from local parts.",
+      "categorySlug": "education-students",
+      "creatorId": "cr_01",
+      "goalUSDC": 12000,
+      "raisedUSDC": 8400,
+      "percentFunded": 70,
+      "backersCount": 213,
+      "deadline": "2026-11-04",
+      "daysLeft": 17,
+      "status": "live",
+      "coverImage": "/demo/pocket-lab-science-kits-village-schools.jpg",
+      "contractAddress": "0x0000000000000000000000000000000000001388",
+      "metadataCID": "bafy-demo-01",
+      "featured": true,
+      "isDemo": true,
+      "created": "2026-08-19"
+    },
+    {
+      "id": "pr_02",
+      "slug": "harbour-light-library",
+      "title": "Harbour Light Library: A Free Reading Room for Colaba",
+      "summary": "Turn a disused ward office room into a free community library with 3,000 books.",
+      "categorySlug": "community-social",
+      "creatorId": "cr_02",
+      "goalUSDC": 9000,
+      "raisedUSDC": 6150,
+      "percentFunded": 68,
+      "backersCount": 187,
+      "deadline": "2026-11-11",
+      "daysLeft": 24,
+      "status": "live",
+      "coverImage": "/demo/harbour-light-library.jpg",
+      "contractAddress": "0x0000000000000000000000000000000000001389",
+      "metadataCID": "bafy-demo-02",
+      "featured": true,
+      "isDemo": true,
+      "created": "2026-08-21"
+    },
+    {
+      "id": "pr_03",
+      "slug": "solarstack-mini-phone-charging-stations",
+      "title": "SolarStack Mini: Solar Phone-Charging Stations for Rural Bus Stops",
+      "summary": "Ten open-design solar charging stations for bus stops without reliable power.",
+      "categorySlug": "technology-hardware",
+      "creatorId": "cr_03",
+      "goalUSDC": 15000,
+      "raisedUSDC": 15000,
+      "percentFunded": 100,
+      "backersCount": 342,
+      "deadline": "2026-10-13",
+      "daysLeft": 0,
+      "status": "funded",
+      "coverImage": "/demo/solarstack-mini-phone-charging-stations.jpg",
+      "contractAddress": "0x000000000000000000000000000000000000138a",
+      "metadataCID": "bafy-demo-03",
+      "featured": true,
+      "isDemo": true,
+      "created": "2026-08-23"
+    },
+    {
+      "id": "pr_04",
+      "slug": "led-lantern-kit-for-exam-season",
+      "title": "LED Lantern Kit for Exam Season",
+      "summary": "Rechargeable study lanterns for students in homes with frequent power cuts.",
+      "categorySlug": "education-students",
+      "creatorId": "cr_01",
+      "goalUSDC": 3900,
+      "raisedUSDC": 4310,
+      "percentFunded": 111,
+      "backersCount": 126,
+      "deadline": "2026-10-13",
+      "daysLeft": 0,
+      "status": "completed",
+      "coverImage": "/demo/led-lantern-kit-for-exam-season.jpg",
+      "contractAddress": "0x000000000000000000000000000000000000138b",
+      "metadataCID": "bafy-demo-04",
+      "featured": false,
+      "isDemo": true,
+      "created": "2026-08-25"
+    },
+    {
+      "id": "pr_05",
+      "slug": "chai-and-chords-community-album",
+      "title": "Chai & Chords: A Community Album Recorded in Thane",
+      "summary": "Record eight original songs with local musicians in a neighbourhood studio.",
+      "categorySlug": "arts-culture",
+      "creatorId": "cr_04",
+      "goalUSDC": 5000,
+      "raisedUSDC": 2275,
+      "percentFunded": 46,
+      "backersCount": 88,
+      "deadline": "2026-11-18",
+      "daysLeft": 31,
+      "status": "live",
+      "coverImage": "/demo/chai-and-chords-community-album.jpg",
+      "contractAddress": "0x000000000000000000000000000000000000138c",
+      "metadataCID": "bafy-demo-05",
+      "featured": false,
+      "isDemo": true,
+      "created": "2026-08-27"
+    },
+    {
+      "id": "pr_06",
+      "slug": "mangrove-nursery-uran",
+      "title": "Mangrove Nursery Uran: 20,000 Saplings for the Coast",
+      "summary": "Grow and plant 20,000 mangrove saplings with local fishing families.",
+      "categorySlug": "environment-sustainability",
+      "creatorId": "cr_05",
+      "goalUSDC": 11000,
+      "raisedUSDC": 7480,
+      "percentFunded": 68,
+      "backersCount": 164,
+      "deadline": "2026-10-30",
+      "daysLeft": 12,
+      "status": "live",
+      "coverImage": "/demo/mangrove-nursery-uran.jpg",
+      "contractAddress": "0x000000000000000000000000000000000000138d",
+      "metadataCID": "bafy-demo-06",
+      "featured": false,
+      "isDemo": true,
+      "created": "2026-08-29"
+    },
+    {
+      "id": "pr_07",
+      "slug": "river-voices-documentary",
+      "title": "River Voices: A Short Documentary on the Ulhas River",
+      "summary": "A 25-minute film about the people who depend on the Ulhas River.",
+      "categorySlug": "arts-culture",
+      "creatorId": "cr_06",
+      "goalUSDC": 8000,
+      "raisedUSDC": 3120,
+      "percentFunded": 39,
+      "backersCount": 97,
+      "deadline": "2026-11-25",
+      "daysLeft": 38,
+      "status": "live",
+      "coverImage": "/demo/river-voices-documentary.jpg",
+      "contractAddress": "0x000000000000000000000000000000000000138e",
+      "metadataCID": "bafy-demo-07",
+      "featured": false,
+      "isDemo": true,
+      "created": "2026-08-31"
+    },
+    {
+      "id": "pr_08",
+      "slug": "kolam-bakery-community-oven",
+      "title": "Kolam Bakery: A Community Oven for Navi Mumbai",
+      "summary": "Buy a commercial oven so a home bakery can serve a neighbourhood and employ two women.",
+      "categorySlug": "small-business-startups",
+      "creatorId": "cr_07",
+      "goalUSDC": 6000,
+      "raisedUSDC": 6720,
+      "percentFunded": 112,
+      "backersCount": 201,
+      "deadline": "2026-10-13",
+      "daysLeft": 0,
+      "status": "funded",
+      "coverImage": "/demo/kolam-bakery-community-oven.jpg",
+      "contractAddress": "0x000000000000000000000000000000000000138f",
+      "metadataCID": "bafy-demo-08",
+      "featured": false,
+      "isDemo": true,
+      "created": "2026-09-02"
+    },
+    {
+      "id": "pr_09",
+      "slug": "birdsong-atlas-western-ghats",
+      "title": "Birdsong Atlas: Recording the Western Ghats",
+      "summary": "Build an open library of bird calls from 60 field sites.",
+      "categorySlug": "science-research",
+      "creatorId": "cr_08",
+      "goalUSDC": 10000,
+      "raisedUSDC": 4900,
+      "percentFunded": 49,
+      "backersCount": 119,
+      "deadline": "2026-11-13",
+      "daysLeft": 26,
+      "status": "live",
+      "coverImage": "/demo/birdsong-atlas-western-ghats.jpg",
+      "contractAddress": "0x0000000000000000000000000000000000001390",
+      "metadataCID": "bafy-demo-09",
+      "featured": false,
+      "isDemo": true,
+      "created": "2026-09-04"
+    },
+    {
+      "id": "pr_10",
+      "slug": "open-math-circle-pune",
+      "title": "Open Math Circle: Free Weekend Maths Clubs in Pune",
+      "summary": "Run 20 free weekend maths clubs for students in classes 8 to 10.",
+      "categorySlug": "education-students",
+      "creatorId": "cr_01",
+      "goalUSDC": 4200,
+      "raisedUSDC": 1390,
+      "percentFunded": 33,
+      "backersCount": 52,
+      "deadline": "2026-11-27",
+      "daysLeft": 40,
+      "status": "live",
+      "coverImage": "/demo/open-math-circle-pune.jpg",
+      "contractAddress": "0x0000000000000000000000000000000000001391",
+      "metadataCID": "bafy-demo-10",
+      "featured": false,
+      "isDemo": true,
+      "created": "2026-09-06"
+    },
+    {
+      "id": "pr_11",
+      "slug": "compost-cart-navi-mumbai",
+      "title": "Compost Cart: Neighbourhood Composting for 300 Homes",
+      "summary": "Collect kitchen waste door to door and compost it locally.",
+      "categorySlug": "community-social",
+      "creatorId": "cr_07",
+      "goalUSDC": 7000,
+      "raisedUSDC": 2940,
+      "percentFunded": 42,
+      "backersCount": 76,
+      "deadline": "2026-11-08",
+      "daysLeft": 21,
+      "status": "live",
+      "coverImage": "/demo/compost-cart-navi-mumbai.jpg",
+      "contractAddress": "0x0000000000000000000000000000000000001392",
+      "metadataCID": "bafy-demo-11",
+      "featured": false,
+      "isDemo": true,
+      "created": "2026-09-08"
+    },
+    {
+      "id": "pr_12",
+      "slug": "smart-water-meter-for-hostels",
+      "title": "Smart Water Meters for Student Hostels",
+      "summary": "Low-cost IoT water meters to cut waste in three college hostels.",
+      "categorySlug": "technology-hardware",
+      "creatorId": "cr_03",
+      "goalUSDC": 5500,
+      "raisedUSDC": 0,
+      "percentFunded": 0,
+      "backersCount": 0,
+      "deadline": null,
+      "daysLeft": 45,
+      "status": "in_review",
+      "coverImage": "/demo/smart-water-meter-for-hostels.jpg",
+      "contractAddress": null,
+      "metadataCID": "bafy-demo-12",
+      "featured": false,
+      "isDemo": true,
+      "created": "2026-09-10"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "ms_01_1",
+      "projectId": "pr_01",
+      "index": 1,
+      "title": "Kits built and tested",
+      "percent": 30,
+      "amountUSDC": 3600,
+      "proofRequired": "Photos of 40 assembled kits and a test report",
+      "status": "released"
+    },
+    {
+      "id": "ms_01_2",
+      "projectId": "pr_01",
+      "index": 2,
+      "title": "Kits delivered and teachers trained",
+      "percent": 50,
+      "amountUSDC": 6000,
+      "proofRequired": "Signed school receipts and workshop photos",
+      "status": "pending"
+    },
+    {
+      "id": "ms_01_3",
+      "projectId": "pr_01",
+      "index": 3,
+      "title": "Open-source release and impact report",
+      "percent": 20,
+      "amountUSDC": 2400,
+      "proofRequired": "Public repository and student results summary",
+      "status": "locked"
+    },
+    {
+      "id": "ms_02_1",
+      "projectId": "pr_02",
+      "index": 1,
+      "title": "Room repairs and shelving",
+      "percent": 40,
+      "amountUSDC": 3600,
+      "proofRequired": "Before/after photos and carpenter invoices",
+      "status": "released"
+    },
+    {
+      "id": "ms_02_2",
+      "projectId": "pr_02",
+      "index": 2,
+      "title": "Book acquisition and cataloguing",
+      "percent": 40,
+      "amountUSDC": 3600,
+      "proofRequired": "Catalogue export and purchase receipts",
+      "status": "pending"
+    },
+    {
+      "id": "ms_02_3",
+      "projectId": "pr_02",
+      "index": 3,
+      "title": "Opening month programmes",
+      "percent": 20,
+      "amountUSDC": 1800,
+      "proofRequired": "Event photos and attendance sheet",
+      "status": "locked"
+    },
+    {
+      "id": "ms_03_1",
+      "projectId": "pr_03",
+      "index": 1,
+      "title": "Prototype and safety testing",
+      "percent": 25,
+      "amountUSDC": 3750,
+      "proofRequired": "Test report and design files",
+      "status": "released"
+    },
+    {
+      "id": "ms_03_2",
+      "projectId": "pr_03",
+      "index": 2,
+      "title": "Build and install 10 stations",
+      "percent": 55,
+      "amountUSDC": 8250,
+      "proofRequired": "Installation photos and local-body sign-off",
+      "status": "pending"
+    },
+    {
+      "id": "ms_03_3",
+      "projectId": "pr_03",
+      "index": 3,
+      "title": "Six-month monitoring report",
+      "percent": 20,
+      "amountUSDC": 3000,
+      "proofRequired": "Usage data and maintenance log",
+      "status": "locked"
+    },
+    {
+      "id": "ms_04_1",
+      "projectId": "pr_04",
+      "index": 1,
+      "title": "Components sourced",
+      "percent": 40,
+      "amountUSDC": 1560,
+      "proofRequired": "Purchase receipts",
+      "status": "released"
+    },
+    {
+      "id": "ms_04_2",
+      "projectId": "pr_04",
+      "index": 2,
+      "title": "Assembly and distribution",
+      "percent": 60,
+      "amountUSDC": 2340,
+      "proofRequired": "Delivery list and photos",
+      "status": "released"
+    },
+    {
+      "id": "ms_05_1",
+      "projectId": "pr_05",
+      "index": 1,
+      "title": "Studio booking and pre-production",
+      "percent": 30,
+      "amountUSDC": 1500,
+      "proofRequired": "Booking confirmation and demo recordings",
+      "status": "pending"
+    },
+    {
+      "id": "ms_05_2",
+      "projectId": "pr_05",
+      "index": 2,
+      "title": "Recording sessions",
+      "percent": 45,
+      "amountUSDC": 2250,
+      "proofRequired": "Session photos and rough mixes",
+      "status": "locked"
+    },
+    {
+      "id": "ms_05_3",
+      "projectId": "pr_05",
+      "index": 3,
+      "title": "Mixing, mastering and release",
+      "percent": 25,
+      "amountUSDC": 1250,
+      "proofRequired": "Final tracks and streaming links",
+      "status": "locked"
+    },
+    {
+      "id": "ms_06_1",
+      "projectId": "pr_06",
+      "index": 1,
+      "title": "Nursery set-up and seed collection",
+      "percent": 30,
+      "amountUSDC": 3300,
+      "proofRequired": "Geo-tagged photos and seed log",
+      "status": "released"
+    },
+    {
+      "id": "ms_06_2",
+      "projectId": "pr_06",
+      "index": 2,
+      "title": "Growing and planting season",
+      "percent": 50,
+      "amountUSDC": 5500,
+      "proofRequired": "Planting counts with geo-tagged photos",
+      "status": "pending"
+    },
+    {
+      "id": "ms_06_3",
+      "projectId": "pr_06",
+      "index": 3,
+      "title": "Survival survey after 90 days",
+      "percent": 20,
+      "amountUSDC": 2200,
+      "proofRequired": "Survey report with survival rate",
+      "status": "locked"
+    },
+    {
+      "id": "ms_07_1",
+      "projectId": "pr_07",
+      "index": 1,
+      "title": "Research and filming",
+      "percent": 50,
+      "amountUSDC": 4000,
+      "proofRequired": "Raw footage samples and shoot log",
+      "status": "pending"
+    },
+    {
+      "id": "ms_07_2",
+      "projectId": "pr_07",
+      "index": 2,
+      "title": "Editing and sound",
+      "percent": 30,
+      "amountUSDC": 2400,
+      "proofRequired": "Rough cut link",
+      "status": "locked"
+    },
+    {
+      "id": "ms_07_3",
+      "projectId": "pr_07",
+      "index": 3,
+      "title": "Screenings and open release",
+      "percent": 20,
+      "amountUSDC": 1600,
+      "proofRequired": "Screening photos and public link",
+      "status": "locked"
+    },
+    {
+      "id": "ms_08_1",
+      "projectId": "pr_08",
+      "index": 1,
+      "title": "Oven purchase and installation",
+      "percent": 60,
+      "amountUSDC": 3600,
+      "proofRequired": "Invoice and installation photo",
+      "status": "released"
+    },
+    {
+      "id": "ms_08_2",
+      "projectId": "pr_08",
+      "index": 2,
+      "title": "Licensing and first production run",
+      "percent": 25,
+      "amountUSDC": 1500,
+      "proofRequired": "Licence copy and production photos",
+      "status": "pending"
+    },
+    {
+      "id": "ms_08_3",
+      "projectId": "pr_08",
+      "index": 3,
+      "title": "Reward delivery to backers",
+      "percent": 15,
+      "amountUSDC": 900,
+      "proofRequired": "Delivery confirmation list",
+      "status": "locked"
+    },
+    {
+      "id": "ms_09_1",
+      "projectId": "pr_09",
+      "index": 1,
+      "title": "Equipment and field permits",
+      "percent": 25,
+      "amountUSDC": 2500,
+      "proofRequired": "Receipts and permit copies",
+      "status": "released"
+    },
+    {
+      "id": "ms_09_2",
+      "projectId": "pr_09",
+      "index": 2,
+      "title": "Field recording season",
+      "percent": 50,
+      "amountUSDC": 5000,
+      "proofRequired": "Data upload with metadata",
+      "status": "pending"
+    },
+    {
+      "id": "ms_09_3",
+      "projectId": "pr_09",
+      "index": 3,
+      "title": "Open dataset and paper",
+      "percent": 25,
+      "amountUSDC": 2500,
+      "proofRequired": "Dataset link and preprint",
+      "status": "locked"
+    },
+    {
+      "id": "ms_10_1",
+      "projectId": "pr_10",
+      "index": 1,
+      "title": "Curriculum and volunteer training",
+      "percent": 35,
+      "amountUSDC": 1470,
+      "proofRequired": "Syllabus PDF and training attendance",
+      "status": "pending"
+    },
+    {
+      "id": "ms_10_2",
+      "projectId": "pr_10",
+      "index": 2,
+      "title": "Run 20 sessions",
+      "percent": 50,
+      "amountUSDC": 2100,
+      "proofRequired": "Session logs and attendance",
+      "status": "locked"
+    },
+    {
+      "id": "ms_10_3",
+      "projectId": "pr_10",
+      "index": 3,
+      "title": "Outcome report",
+      "percent": 15,
+      "amountUSDC": 630,
+      "proofRequired": "Public report",
+      "status": "locked"
+    },
+    {
+      "id": "ms_11_1",
+      "projectId": "pr_11",
+      "index": 1,
+      "title": "Carts, bins and training",
+      "percent": 40,
+      "amountUSDC": 2800,
+      "proofRequired": "Equipment photos and invoices",
+      "status": "pending"
+    },
+    {
+      "id": "ms_11_2",
+      "projectId": "pr_11",
+      "index": 2,
+      "title": "Three months of collection",
+      "percent": 45,
+      "amountUSDC": 3150,
+      "proofRequired": "Weight logs",
+      "status": "locked"
+    },
+    {
+      "id": "ms_11_3",
+      "projectId": "pr_11",
+      "index": 3,
+      "title": "Compost distribution and report",
+      "percent": 15,
+      "amountUSDC": 1050,
+      "proofRequired": "Distribution photos and report",
+      "status": "locked"
+    },
+    {
+      "id": "ms_12_1",
+      "projectId": "pr_12",
+      "index": 1,
+      "title": "Prototype meters",
+      "percent": 40,
+      "amountUSDC": 2200,
+      "proofRequired": "Test data and design files",
+      "status": "locked"
+    },
+    {
+      "id": "ms_12_2",
+      "projectId": "pr_12",
+      "index": 2,
+      "title": "Install in three hostels",
+      "percent": 40,
+      "amountUSDC": 2200,
+      "proofRequired": "Installation photos",
+      "status": "locked"
+    },
+    {
+      "id": "ms_12_3",
+      "projectId": "pr_12",
+      "index": 3,
+      "title": "Savings report",
+      "percent": 20,
+      "amountUSDC": 1100,
+      "proofRequired": "Water-use comparison",
+      "status": "locked"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "tx_0001-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "projectId": "pr_01",
+      "backerWallet": "0x000000000000000000000000000000000000232f",
+      "amountUSDC": 1400,
+      "timestamp": "2026-10-17T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0002-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "projectId": "pr_01",
+      "backerWallet": "0x0000000000000000000000000000000000002336",
+      "amountUSDC": 1400,
+      "timestamp": "2026-10-14T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0003-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000003",
+      "projectId": "pr_01",
+      "backerWallet": "0x000000000000000000000000000000000000233d",
+      "amountUSDC": 1400,
+      "timestamp": "2026-10-11T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0004-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000004",
+      "projectId": "pr_01",
+      "backerWallet": "0x0000000000000000000000000000000000002344",
+      "amountUSDC": 1400,
+      "timestamp": "2026-10-08T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0005-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000005",
+      "projectId": "pr_01",
+      "backerWallet": "0x000000000000000000000000000000000000234b",
+      "amountUSDC": 1400,
+      "timestamp": "2026-10-05T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0006-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000006",
+      "projectId": "pr_01",
+      "backerWallet": "0x000000000000000000000000000000000000232a",
+      "amountUSDC": 1400,
+      "timestamp": "2026-10-02T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0007-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000007",
+      "projectId": "pr_02",
+      "backerWallet": "0x0000000000000000000000000000000000002331",
+      "amountUSDC": 1025,
+      "timestamp": "2026-10-17T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0008-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000008",
+      "projectId": "pr_02",
+      "backerWallet": "0x0000000000000000000000000000000000002338",
+      "amountUSDC": 1025,
+      "timestamp": "2026-10-14T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0009-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000009",
+      "projectId": "pr_02",
+      "backerWallet": "0x000000000000000000000000000000000000233f",
+      "amountUSDC": 1025,
+      "timestamp": "2026-10-11T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0010-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000000a",
+      "projectId": "pr_02",
+      "backerWallet": "0x0000000000000000000000000000000000002346",
+      "amountUSDC": 1025,
+      "timestamp": "2026-10-08T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0011-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000000b",
+      "projectId": "pr_02",
+      "backerWallet": "0x000000000000000000000000000000000000234d",
+      "amountUSDC": 1025,
+      "timestamp": "2026-10-05T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0012-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000000c",
+      "projectId": "pr_02",
+      "backerWallet": "0x000000000000000000000000000000000000232c",
+      "amountUSDC": 1025,
+      "timestamp": "2026-10-02T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0013-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000000d",
+      "projectId": "pr_03",
+      "backerWallet": "0x0000000000000000000000000000000000002333",
+      "amountUSDC": 2500,
+      "timestamp": "2026-10-17T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0014-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000000e",
+      "projectId": "pr_03",
+      "backerWallet": "0x000000000000000000000000000000000000233a",
+      "amountUSDC": 2500,
+      "timestamp": "2026-10-14T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0015-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000000f",
+      "projectId": "pr_03",
+      "backerWallet": "0x0000000000000000000000000000000000002341",
+      "amountUSDC": 2500,
+      "timestamp": "2026-10-11T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0016-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000010",
+      "projectId": "pr_03",
+      "backerWallet": "0x0000000000000000000000000000000000002348",
+      "amountUSDC": 2500,
+      "timestamp": "2026-10-08T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0017-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000011",
+      "projectId": "pr_03",
+      "backerWallet": "0x000000000000000000000000000000000000234f",
+      "amountUSDC": 2500,
+      "timestamp": "2026-10-05T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0018-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000012",
+      "projectId": "pr_03",
+      "backerWallet": "0x000000000000000000000000000000000000232e",
+      "amountUSDC": 2500,
+      "timestamp": "2026-10-02T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0019-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000013",
+      "projectId": "pr_04",
+      "backerWallet": "0x0000000000000000000000000000000000002335",
+      "amountUSDC": 718,
+      "timestamp": "2026-10-17T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0020-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000014",
+      "projectId": "pr_04",
+      "backerWallet": "0x000000000000000000000000000000000000233c",
+      "amountUSDC": 718,
+      "timestamp": "2026-10-14T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0021-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000015",
+      "projectId": "pr_04",
+      "backerWallet": "0x0000000000000000000000000000000000002343",
+      "amountUSDC": 718,
+      "timestamp": "2026-10-11T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0022-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000016",
+      "projectId": "pr_04",
+      "backerWallet": "0x000000000000000000000000000000000000234a",
+      "amountUSDC": 718,
+      "timestamp": "2026-10-08T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0023-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000017",
+      "projectId": "pr_04",
+      "backerWallet": "0x0000000000000000000000000000000000002329",
+      "amountUSDC": 718,
+      "timestamp": "2026-10-05T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0024-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000018",
+      "projectId": "pr_04",
+      "backerWallet": "0x0000000000000000000000000000000000002330",
+      "amountUSDC": 720,
+      "timestamp": "2026-10-02T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0025-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000019",
+      "projectId": "pr_05",
+      "backerWallet": "0x0000000000000000000000000000000000002337",
+      "amountUSDC": 379,
+      "timestamp": "2026-10-17T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0026-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000001a",
+      "projectId": "pr_05",
+      "backerWallet": "0x000000000000000000000000000000000000233e",
+      "amountUSDC": 379,
+      "timestamp": "2026-10-14T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0027-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000001b",
+      "projectId": "pr_05",
+      "backerWallet": "0x0000000000000000000000000000000000002345",
+      "amountUSDC": 379,
+      "timestamp": "2026-10-11T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0028-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000001c",
+      "projectId": "pr_05",
+      "backerWallet": "0x000000000000000000000000000000000000234c",
+      "amountUSDC": 379,
+      "timestamp": "2026-10-08T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0029-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000001d",
+      "projectId": "pr_05",
+      "backerWallet": "0x000000000000000000000000000000000000232b",
+      "amountUSDC": 379,
+      "timestamp": "2026-10-05T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0030-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000001e",
+      "projectId": "pr_05",
+      "backerWallet": "0x0000000000000000000000000000000000002332",
+      "amountUSDC": 380,
+      "timestamp": "2026-10-02T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0031-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000001f",
+      "projectId": "pr_06",
+      "backerWallet": "0x0000000000000000000000000000000000002339",
+      "amountUSDC": 1246,
+      "timestamp": "2026-10-17T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0032-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000020",
+      "projectId": "pr_06",
+      "backerWallet": "0x0000000000000000000000000000000000002340",
+      "amountUSDC": 1246,
+      "timestamp": "2026-10-14T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0033-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000021",
+      "projectId": "pr_06",
+      "backerWallet": "0x0000000000000000000000000000000000002347",
+      "amountUSDC": 1246,
+      "timestamp": "2026-10-11T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0034-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000022",
+      "projectId": "pr_06",
+      "backerWallet": "0x000000000000000000000000000000000000234e",
+      "amountUSDC": 1246,
+      "timestamp": "2026-10-08T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0035-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000023",
+      "projectId": "pr_06",
+      "backerWallet": "0x000000000000000000000000000000000000232d",
+      "amountUSDC": 1246,
+      "timestamp": "2026-10-05T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0036-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000024",
+      "projectId": "pr_06",
+      "backerWallet": "0x0000000000000000000000000000000000002334",
+      "amountUSDC": 1250,
+      "timestamp": "2026-10-02T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0037-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000025",
+      "projectId": "pr_07",
+      "backerWallet": "0x000000000000000000000000000000000000233b",
+      "amountUSDC": 520,
+      "timestamp": "2026-10-17T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0038-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000026",
+      "projectId": "pr_07",
+      "backerWallet": "0x0000000000000000000000000000000000002342",
+      "amountUSDC": 520,
+      "timestamp": "2026-10-14T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0039-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000027",
+      "projectId": "pr_07",
+      "backerWallet": "0x0000000000000000000000000000000000002349",
+      "amountUSDC": 520,
+      "timestamp": "2026-10-11T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0040-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000028",
+      "projectId": "pr_07",
+      "backerWallet": "0x0000000000000000000000000000000000002328",
+      "amountUSDC": 520,
+      "timestamp": "2026-10-08T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0041-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000029",
+      "projectId": "pr_07",
+      "backerWallet": "0x000000000000000000000000000000000000232f",
+      "amountUSDC": 520,
+      "timestamp": "2026-10-05T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0042-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000002a",
+      "projectId": "pr_07",
+      "backerWallet": "0x0000000000000000000000000000000000002336",
+      "amountUSDC": 520,
+      "timestamp": "2026-10-02T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0043-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000002b",
+      "projectId": "pr_08",
+      "backerWallet": "0x000000000000000000000000000000000000233d",
+      "amountUSDC": 1120,
+      "timestamp": "2026-10-17T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0044-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000002c",
+      "projectId": "pr_08",
+      "backerWallet": "0x0000000000000000000000000000000000002344",
+      "amountUSDC": 1120,
+      "timestamp": "2026-10-14T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0045-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000002d",
+      "projectId": "pr_08",
+      "backerWallet": "0x000000000000000000000000000000000000234b",
+      "amountUSDC": 1120,
+      "timestamp": "2026-10-11T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0046-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000002e",
+      "projectId": "pr_08",
+      "backerWallet": "0x000000000000000000000000000000000000232a",
+      "amountUSDC": 1120,
+      "timestamp": "2026-10-08T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0047-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000002f",
+      "projectId": "pr_08",
+      "backerWallet": "0x0000000000000000000000000000000000002331",
+      "amountUSDC": 1120,
+      "timestamp": "2026-10-05T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0048-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000030",
+      "projectId": "pr_08",
+      "backerWallet": "0x0000000000000000000000000000000000002338",
+      "amountUSDC": 1120,
+      "timestamp": "2026-10-02T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0049-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000031",
+      "projectId": "pr_09",
+      "backerWallet": "0x000000000000000000000000000000000000233f",
+      "amountUSDC": 816,
+      "timestamp": "2026-10-17T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0050-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000032",
+      "projectId": "pr_09",
+      "backerWallet": "0x0000000000000000000000000000000000002346",
+      "amountUSDC": 816,
+      "timestamp": "2026-10-14T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0051-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000033",
+      "projectId": "pr_09",
+      "backerWallet": "0x000000000000000000000000000000000000234d",
+      "amountUSDC": 816,
+      "timestamp": "2026-10-11T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0052-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000034",
+      "projectId": "pr_09",
+      "backerWallet": "0x000000000000000000000000000000000000232c",
+      "amountUSDC": 816,
+      "timestamp": "2026-10-08T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0053-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000035",
+      "projectId": "pr_09",
+      "backerWallet": "0x0000000000000000000000000000000000002333",
+      "amountUSDC": 816,
+      "timestamp": "2026-10-05T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0054-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000036",
+      "projectId": "pr_09",
+      "backerWallet": "0x000000000000000000000000000000000000233a",
+      "amountUSDC": 820,
+      "timestamp": "2026-10-02T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0055-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000037",
+      "projectId": "pr_10",
+      "backerWallet": "0x0000000000000000000000000000000000002341",
+      "amountUSDC": 231,
+      "timestamp": "2026-10-17T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0056-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000038",
+      "projectId": "pr_10",
+      "backerWallet": "0x0000000000000000000000000000000000002348",
+      "amountUSDC": 231,
+      "timestamp": "2026-10-14T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0057-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000039",
+      "projectId": "pr_10",
+      "backerWallet": "0x000000000000000000000000000000000000234f",
+      "amountUSDC": 231,
+      "timestamp": "2026-10-11T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0058-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000003a",
+      "projectId": "pr_10",
+      "backerWallet": "0x000000000000000000000000000000000000232e",
+      "amountUSDC": 231,
+      "timestamp": "2026-10-08T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0059-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000003b",
+      "projectId": "pr_10",
+      "backerWallet": "0x0000000000000000000000000000000000002335",
+      "amountUSDC": 231,
+      "timestamp": "2026-10-05T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0060-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000003c",
+      "projectId": "pr_10",
+      "backerWallet": "0x000000000000000000000000000000000000233c",
+      "amountUSDC": 235,
+      "timestamp": "2026-10-02T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0061-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000003d",
+      "projectId": "pr_11",
+      "backerWallet": "0x0000000000000000000000000000000000002343",
+      "amountUSDC": 490,
+      "timestamp": "2026-10-17T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0062-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000003e",
+      "projectId": "pr_11",
+      "backerWallet": "0x000000000000000000000000000000000000234a",
+      "amountUSDC": 490,
+      "timestamp": "2026-10-14T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0063-0",
+      "txHash": "0x000000000000000000000000000000000000000000000000000000000000003f",
+      "projectId": "pr_11",
+      "backerWallet": "0x0000000000000000000000000000000000002329",
+      "amountUSDC": 490,
+      "timestamp": "2026-10-11T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0064-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000040",
+      "projectId": "pr_11",
+      "backerWallet": "0x0000000000000000000000000000000000002330",
+      "amountUSDC": 490,
+      "timestamp": "2026-10-08T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0065-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000041",
+      "projectId": "pr_11",
+      "backerWallet": "0x0000000000000000000000000000000000002337",
+      "amountUSDC": 490,
+      "timestamp": "2026-10-05T10:00:00Z",
+      "isDemo": true
+    },
+    {
+      "id": "tx_0066-0",
+      "txHash": "0x0000000000000000000000000000000000000000000000000000000000000042",
+      "projectId": "pr_11",
+      "backerWallet": "0x000000000000000000000000000000000000233e",
+      "amountUSDC": 490,
+      "timestamp": "2026-10-02T10:00:00Z",
+      "isDemo": true
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq_01",
+      "audience": "backers",
+      "question": "Is my money safe?",
+      "answer": "Your contribution is held by a smart contract and released to the creator only after milestones are approved. No system is risk-free; see the Risk Disclosure."
+    },
+    {
+      "id": "faq_02",
+      "audience": "backers",
+      "question": "What happens if a project doesn't reach its goal?",
+      "answer": "The campaign fails and every backer can claim a full refund from the contract."
+    },
+    {
+      "id": "faq_03",
+      "audience": "backers",
+      "question": "Do I need to understand crypto to contribute?",
+      "answer": "You need a wallet and USDC. Our guide walks you through it in about 10 minutes."
+    },
+    {
+      "id": "faq_04",
+      "audience": "backers",
+      "question": "Why do I need MON as well as USDC?",
+      "answer": "MON pays the small network fee for each transaction on Monad."
+    },
+    {
+      "id": "faq_05",
+      "audience": "creators",
+      "question": "How much does it cost to start?",
+      "answer": "Nothing upfront. A flat 3% fee applies only to successfully funded campaigns."
+    },
+    {
+      "id": "faq_06",
+      "audience": "creators",
+      "question": "How are funds released to me?",
+      "answer": "You submit proof for each milestone. After approval, that portion becomes withdrawable."
+    },
+    {
+      "id": "faq_07",
+      "audience": "creators",
+      "question": "Can I change my goal or deadline after launch?",
+      "answer": "No. Rules are fixed at launch to protect backers."
+    },
+    {
+      "id": "faq_08",
+      "audience": "creators",
+      "question": "What projects are not allowed?",
+      "answer": "Illegal items, weapons, gambling, adult content, investment or profit-sharing offers, and individual medical fundraising."
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "post_01",
+      "slug": "how-blockchain-crowdfunding-works",
+      "title": "How Blockchain Crowdfunding Works: A Beginner's Guide",
+      "targetKeyword": "how does blockchain crowdfunding work",
+      "status": "draft",
+      "published": "2026-09-18",
+      "isDemo": true
+    },
+    {
+      "id": "post_02",
+      "slug": "how-to-start-a-crowdfunding-campaign-india",
+      "title": "How to Start a Crowdfunding Campaign in India: 10 Steps",
+      "targetKeyword": "how to start a crowdfunding campaign",
+      "status": "draft",
+      "published": "2026-09-22",
+      "isDemo": true
+    },
+    {
+      "id": "post_03",
+      "slug": "milestone-based-funding-explained",
+      "title": "Milestone-Based Funding Explained",
+      "targetKeyword": "milestone based funding",
+      "status": "draft",
+      "published": "2026-09-26",
+      "isDemo": true
+    },
+    {
+      "id": "post_04",
+      "slug": "crypto-wallet-guide-for-first-time-backers",
+      "title": "Crypto Wallet Guide for First-Time Backers",
+      "targetKeyword": "how to donate with crypto",
+      "status": "draft",
+      "published": "2026-09-30",
+      "isDemo": true
+    },
+    {
+      "id": "post_05",
+      "slug": "crowdfunding-for-students",
+      "title": "Crowdfunding for Students: Fund Your Project",
+      "targetKeyword": "crowdfunding for students",
+      "status": "draft",
+      "published": "2026-10-04",
+      "isDemo": true
+    },
+    {
+      "id": "post_06",
+      "slug": "how-to-spot-a-risky-crowdfunding-project",
+      "title": "How to Spot a Risky Crowdfunding Project",
+      "targetKeyword": "is crowdfunding safe",
+      "status": "draft",
+      "published": "2026-10-08",
+      "isDemo": true
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "name": "Anika R.",
+      "role": "Sample backer, Pune",
+      "quote": "I backed three projects and could see exactly when each milestone was released. It feels honest.",
+      "isDemo": true
+    },
+    {
+      "id": "t2",
+      "name": "Rohan D.",
+      "role": "Sample creator, Nashik",
+      "quote": "Our school lab kit got funded in 19 days. Releasing funds in stages kept us disciplined.",
+      "isDemo": true
+    }
+  ]
+}

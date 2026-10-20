@@ -1,0 +1,21 @@
+{
+  "monadTestnet": {
+    "chainId": 10143,
+    "name": "Monad Testnet",
+    "rpcUrl": "https://testnet-rpc.monad.xyz",
+    "blockExplorer": "https://testnet.monadexplorer.com",
+    "platformConfig": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+    "campaignFactory": "0x2279B7A0a67E348664259a27790a60C7257127b3",
+    "mockUSDC": "0xf817257fed379853cDe0fa4F97AB987181B1E5Ea",
+    "treasury": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8"
+  },
+  "monadMainnet": {
+    "chainId": 143,
+    "name": "Monad Mainnet",
+    "rpcUrl": "https://rpc.monad.xyz",
+    "blockExplorer": "https://monadexplorer.com",
+    "platformConfig": "",
+    "campaignFactory": "",
+    "treasury": ""
+  }
+}
