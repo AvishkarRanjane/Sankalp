@@ -6,7 +6,7 @@
 > A next-generation crowdfunding platform built from scratch on the high-throughput **Monad EVM** blockchain.  
 > Empowering grassroots student innovators, social enterprises, and community builders with 100% smart-contract escrow protection and milestone-verified releases.
 
-[![Demo Deploy on Vercel](https://img.shields.io/badge/Demo-Deploy%20on%20Vercel-black?style=for-the-badge&logo=vercel)](#-deploy-to-vercel)
+[![Live Demo on Vercel](https://img.shields.io/badge/Live%20Demo-sankalp--web--one.vercel.app-black?style=for-the-badge&logo=vercel)](https://sankalp-web-one.vercel.app)
 [![Network Monad Testnet](https://img.shields.io/badge/Network-Monad%20Testnet%20(10143)-8338EC?style=for-the-badge&logo=ethereum)](#-monad-testnet-deployment-parameters)
 [![Next.js 16](https://img.shields.io/badge/Next.js-16%20(Turbopack)-000000?style=for-the-badge&logo=next.js)](#-tech-stack)
 [![TypeScript 5.x](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript)](#-tech-stack)
@@ -167,12 +167,17 @@ npm run start
 
 ## ☁️ Deploy to Vercel
 
-### Option A: 1-Click Import (Recommended)
+### 🌐 Live Production URL
+
+- **Production Deployment**: **[https://sankalp-web-one.vercel.app](https://sankalp-web-one.vercel.app)**
+- **Global Edge Network**: High-speed CDN edge nodes with SSL & automated cache invalidation.
+
+### Option A: 1-Click Import (Clone & Deploy)
 
 1. Click the **[Deploy with Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAvishkarRanjane%2FSankalp&root-directory=sankalp-web)** button above.
 2. Sign in with your GitHub account.
 3. Vercel automatically detects Next.js 16 and sets the Root Directory to `sankalp-web`.
-4. Click **Deploy**. Your live production instance will be available at `https://sankalp-[your-username].vercel.app` with instant global CDN caching and automatic deployments on every Git push.
+4. Click **Deploy**. Your custom instance will deploy with instant global CDN caching and automatic deployments on every Git push.
 
 ### Option B: Deploy via Vercel CLI
 
